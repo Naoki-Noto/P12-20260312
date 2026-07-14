@@ -1,5 +1,4 @@
 # P12-20260312
-XX
 
 # Table of Contents
 Environment: An environment for performing each code is stored in this directory./
@@ -36,9 +35,39 @@ ML/
   
   • OPSDesign.ipynb: Code for generating candidate molecules using the trained RL models.
 
-# Setup and Usage
+# Setup and Usage for using OPSdesigner
 
+To set up the environment for OPSdesigner, execute the following commands using the `OPSdesign2.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `OPSdesign2.yml` file and install the missing packages manually using `pip`.
+```bash
+conda env create -n new_env -f OPSdesign2.yml
+conda activate new_env
+```
+As a representative example (fragment pool A, Method B), run the following scripts:  
+- `learning_PPO_2envs.ipynb` — Trains the RL model.
+- `OPSdesign.ipynb` — Generates molecular candidates using the trained RL model.
 
+Before running these scripts, organize the files as follows:
+```bash
+OPSDesigner/
+└── Realistic_mols_4CzIPN_2envs/
+  ├── GCNmodel/
+  │ ├── model_mt_sc.pth
+  │ └── scaler_mt.pkl
+  │
+  ├── source/
+  │ └── SMILES_list_100.csv
+  │
+  ├── RLmodels: The strage for trained RL (required to run learning_PPO_2envs.ipynb)./
+  │
+  ├── generated_OPSs: The strage for generated candidates (required to run OPSdesign.ipynb)./
+  │
+  ├── OPSDesignerEnv.py #
+  ├── GCNcalculator.py #
+  ├── T5generator.py #
+  │
+  ├── learning_PPO_2envs.ipynb
+  └── OPSdesign.ipynb
+```
 
 
 
