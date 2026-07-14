@@ -73,7 +73,7 @@ OPSDesigner/
 
 #1 The SMILES_list_100.csv file can be replaced with any user-defined molecular fragment pool.
 
-#2 We need to set target property values. In the model case, we utilized the HOMO and LUMO energies, S0-S1 excitation energy, S0-S1 oscilator strength, S0-T1 excitation energy, and S1-T1 energy gap of 4CzIPN, but these values are changable. Properties of representative photosensitizers are as follows:
+#2 We need to set target property values. In the representative example, we used the HOMO and LUMO energies, S0-S1 excitation energy, S0-S1 oscilator strength, S0-T1 excitation energy, and S1-T1 energy gap of 4CzIPN as the target properties. These target values can be freely modified to design molecules with different target properties. Representative property values for several photosensitizers are listed below:
 
 4CzIPN (N#Cc1c(-n2c3ccccc3c3ccccc32)c(C#N)c(-n2c3ccccc3c3ccccc32)c(-n2c3ccccc3c3ccccc32)c1-n1c2ccccc2c2ccccc21): [-5.9155, -2.7331, 2.5561, 0.0639, 2.4273, 0.1288]
 
