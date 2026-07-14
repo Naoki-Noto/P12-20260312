@@ -26,9 +26,13 @@ ML/
 
 (Rpresentative files in each of the above directory are as follows)
   • GCNcalculator.py: Code for a reward prediction module based on a GCN model.
+  
   • T5generator.py: Code for a SMILES generator that takes selected molecular fragments as input and generates molecules composed of those fragments.
+  
   • OPSDesignerEnv.py: Code for the RL environment, which integrates T5generator and GCNcalculator.
+  
   • learning_XX.ipynb: Code for training the RL models.
+  
   • OPSDesign.ipynb: Code for generating candidate molecules using the trained RL models.
 
  
