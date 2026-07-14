@@ -25,14 +25,11 @@ ML/
   • Realistic_mols_4CzIPN_TL: RL model with transfer learning-based parameter initialization (Method C) for generating molecules with properties similar to those of 4CzIPN using a fragment pool consisting of 100 fragments (fragment pool B).
 
 (Rpresentative files in each of the above directory are as follows)
+  • GCNcalculator.py: Code for a reward prediction module based on a GCN model.
+  • T5generator.py: Code for a SMILES generator that takes selected molecular fragments as input and generates molecules composed of those fragments.
+  • OPSDesignerEnv.py: Code for the RL environment, which integrates T5generator and GCNcalculator.
+  • learning_XX.ipynb: Code for training the RL models.
+  • OPSDesign.ipynb: Code for generating candidate molecules using the trained RL models.
 
-  • GCNcalculator.py: Code and results for constructing pre-trained models based on BertzCT and fine-tuning.
-
-  • T5generator.py: Code and results for constructing pre-trained models based on various pre-training labels and fine-tuning. Database B was utilized for TargetScreening_yield_s as well as Database E for TargetScreening_yield_l_cl.
-
-  • OPSDesignerEnv.py: Code and results for constructing pre-trained models based on BertzCT and fine-tuning.
-
-  • learning_XX.ipynb: Code
-
-  • OPSDesign.ipynb: Code
  
+# Setup and Usage
