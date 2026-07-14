@@ -37,7 +37,7 @@ ML/
 
 # Setup and Usage for using OPSdesigner
 
-To set up the environment for OPSdesigner, execute the following commands using the `OPSdesign2.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `OPSdesign2.yml` file and install the missing packages manually using `pip`.
+To set up the environment for OPSDesigner, execute the following commands using the `OPSdesign2.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `OPSdesign2.yml` file and install the missing packages manually using `pip`.
 ```bash
 conda env create -n new_env -f OPSdesign2.yml
 conda activate new_env
@@ -57,13 +57,13 @@ OPSDesigner/
   ├── source/
   │ └── SMILES_list_100.csv
   │
-  ├── RLmodels: The strage for trained RL (required to run learning_PPO_2envs.ipynb)./
+  ├── RLmodels/         # Directory for trained RL models (required by learning_PPO_2envs.ipynb)
   │
-  ├── generated_OPSs: The strage for generated candidates (required to run OPSdesign.ipynb)./
+  ├── generated_OPSs/   # Directory for generated molecular candidates (required by OPSdesign.ipynb)
   │
-  ├── OPSDesignerEnv.py #
-  ├── GCNcalculator.py #
-  ├── T5generator.py #
+  ├── OPSDesignerEnv.py # RL environment required to run both learning_PPO_2envs.ipynb and OPSdesign.ipynb
+  ├── T5generator.py    # T5-based SMILES generator integrated into OPSDesignerEnv.py
+  ├── GCNcalculator.py  # GCN-based reward estimator integrated into OPSDesignerEnv.py
   │
   ├── learning_PPO_2envs.ipynb
   └── OPSdesign.ipynb
