@@ -70,6 +70,7 @@ OPSDesigner/
 ```
 
 **Customizable component**
+
 #1 The SMILES_list_100.csv file can be replaced with any user-defined molecular fragment pool.
 
 #2 
