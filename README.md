@@ -35,7 +35,7 @@ ML/
   
   • OPSDesign.ipynb: Code for generating candidate molecules using the trained RL models.
 
-# Setup and Usage for using OPSdesigner
+# Getting Started with OPSDesigner
 
 To set up the environment for OPSDesigner, execute the following commands using the `OPSdesign2.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `OPSdesign2.yml` file and install the missing packages manually using `pip`.
 ```bash
