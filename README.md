@@ -1,4 +1,5 @@
 # P12-20260312
+Note1: Since the pkl files were too large to upload to GitHub, they are stored at the following URL (data_AI: Database D, data_AI2+Human: Database E, data_AI2: Database C, data_Human: Database A, data_Random: Database B, data_zinc_25286/data_zinc_50572: ZINC-based databases): https://drive.google.com/drive/folders/1s7Ai9QQx1iIsX_kTXWBnM9N4DGiWXwoG?usp=sharing
 
 # Table of Contents
 Environment: An environment for performing each code is stored in this directory./
