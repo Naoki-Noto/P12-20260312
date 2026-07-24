@@ -1,9 +1,9 @@
 # P12-20260312
-Since several files were too large to upload to GitHub, they are stored at the following URL:
+Since some files exceed GitHub's file size limit, they are available at the following Google Drive links:
 
-For T5-based models (Frag2OPST5): https://drive.google.com/drive/folders/1s7Ai9QQx1iIsX_kTXWBnM9N4DGiWXwoG?usp=sharing
+T5-based models (Frag2OPST5): https://drive.google.com/drive/folders/1s7Ai9QQx1iIsX_kTXWBnM9N4DGiWXwoG?usp=sharing
 
-For data used for GCN training: https://drive.google.com/drive/folders/1f5_bBmQqlOF0jW735Kg1B5OP3O7US7MO?usp=sharing
+Data used for GCN training: https://drive.google.com/drive/folders/1f5_bBmQqlOF0jW735Kg1B5OP3O7US7MO?usp=sharing
 
 # Table of Contents
 Environment: An environment for performing each code is stored in this directory./
