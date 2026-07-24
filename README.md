@@ -1,5 +1,5 @@
 # P12-20260312
-Note1: Since several files were too large to upload to GitHub, they are stored at the following URL:
+Since several files were too large to upload to GitHub, they are stored at the following URL:
 
 For T5-based models (Frag2OPST5): https://drive.google.com/drive/folders/1s7Ai9QQx1iIsX_kTXWBnM9N4DGiWXwoG?usp=sharing
 
