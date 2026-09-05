@@ -14,9 +14,9 @@ OPSdesign2: Python (3.13.5) was used as a language, and used packages were deepc
 
 ML/
 
-- Frag2OPST5: Code for constructing T5-base SMILES generators and evaluating their performance. Due to file-size limitations, the tokenized datasets used for model training and the resulting trained models are available at the following URL: XX
+- Frag2OPST5: Code for constructing T5-base SMILES generators and evaluating their performance. Due to file-size limitations, the tokenized datasets used for model training and the resulting trained models are available at the following URL: https://drive.google.com/drive/folders/1s7Ai9QQx1iIsX_kTXWBnM9N4DGiWXwoG?usp=sharing
 
-- GCN_model: Code for constructing a GCN-based reward estimator and preparing graph-structured datasets for model training. Due to file-size limitations, the graph-structured datasets are available at the following URL: XX
+- GCN_model: Code for constructing a GCN-based reward estimator and preparing graph-structured datasets for model training. Due to file-size limitations, the graph-structured datasets are available at the following URL: https://drive.google.com/drive/folders/1f5_bBmQqlOF0jW735Kg1B5OP3O7US7MO?usp=sharing
 
 - OPSDesigner: Code for a RL-based system to design Organic photosensitizers (OPSs; including photoredox catalysts, triplet sensitizers, and so on). The repository also includes the trained RL models used to generate new molecular structures.
 
